@@ -1,0 +1,73 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+h2, h3 {
+    margin: 10px 0;
+}
+
+.main-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #444;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: #666;
+}
+
+.section {
+    margin-top: 15px;
+}
+
+.download-button, .telegram-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.download-button:hover, .telegram-button:hover {
+    background-color: #777;
+}
+
+.telegram-section {
+    margin-top: 20px;
+}
